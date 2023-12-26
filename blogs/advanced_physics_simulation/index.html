@@ -76,54 +76,78 @@
                                 <h1>Advanced Physics Simulation</h1>
                             </header>
                             
-                                <span class="image main"><img src="/img/blogs/pic10.jpg" alt="" /></span>
+                                <span class="image main"><img src="/img/blogs/advanced_physics_simulation.jpg" alt="" /></span>
                             
-                            <h1 id="game-title">Game Title</h1>
-<h2 id="overview">Overview</h2>
-<p>Brief introduction or overview of the game.</p>
-<p><img src="image_link_here" alt="Game Screenshot"></p>
+                            <h2 id="overview">Overview</h2>
+<p>Simple Hair and Cloth Simulation made with Unity.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
-<li><a href="#gameplay">Gameplay</a></li>
+<li><a href="#project-description">Project Description</a></li>
 <li><a href="#features">Features</a></li>
+<li><a href="#implementation-details">Implementation Details</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#controls">Controls</a></li>
-<li><a href="#github-repository">GitHub Repository</a></li>
 <li><a href="#screenshots">Screenshots</a></li>
-<li><a href="#contributing">Contributing</a></li>
-<li><a href="#license">License</a></li>
+<li><a href="#usage-license">Usage License</a></li>
 </ul>
-<h2 id="gameplay">Gameplay</h2>
-<p>Describe the core gameplay mechanics and objectives of the game.</p>
+<h2 id="project-description">Project Description</h2>
+<p>Project Objectives:</p>
+<ol>
+<li>Understand how physical phenomena are modeled in games</li>
+<li>Understand several methods of solving ordinary differential equations</li>
+<li>Learn the basic spring model implementation</li>
+</ol>
 <h2 id="features">Features</h2>
+<h3 id="hair-simulation">Hair Simulation</h3>
 <ul>
-<li>List key features of the game.</li>
-<li>Bullet point 1</li>
-<li>Bullet point 2</li>
-<li>&hellip;</li>
+<li>Simple interaction: the player can adjust hair weight, damping factor, length and other parameters through UI</li>
 </ul>
+<h3 id="cloth-simulation">Cloth Simulation</h3>
+<ul>
+<li>Simple interaction: the player can use the ball to collide with the cloth</li>
+</ul>
+<h2 id="implementation-details">Implementation Details</h2>
+<h3 id="hair-simulation-1">Hair Simulation</h3>
+<ol>
+<li>Implementing dynamic effects using the Verlet integration method.</li>
+<li>Enforcing spring constraints on the hair strands.</li>
+<li>Introducing collision constraints between the hair strands and the spherical head model.</li>
+<li>Incorporating simple user interactions.</li>
+<li>Utilizing a UI to adjust parameters such as hair weight, damping coefficient, and length.</li>
+<li>Exploring optional enhancements, such as advanced rendering effects.</li>
+</ol>
+<h3 id="cloth-simulation-1">Cloth Simulation</h3>
+<ol>
+<li>Utilizing a grid-based mass-spring system for cloth modeling.</li>
+<li>Calculating external forces acting on each cloth vertex, focusing on gravitational forces.</li>
+<li>Computing structural, shear, and flexion forces within the cloth through spring constraints between different vertices.</li>
+<li>Implementing dynamic cloth effects using the Semi-implicit Euler (Symplectic Euler) method.</li>
+<li>Exploring optional enhancements, such as cloth-sphere collisions.</li>
+<li>Implementing cloth simulation using the implicit Euler method.</li>
+</ol>
 <h2 id="installation">Installation</h2>
-<p>Provide instructions on how to install and run the game.</p>
+<p>GitHub Repository: <a href="https://github.com/JoachimSong/Advanced-Physics-Simulation">Advanced Physics Simulation</a></p>
 <h2 id="controls">Controls</h2>
-<p>Explain the controls for playing the game.</p>
 <ul>
-<li><strong>W/A/S/D:</strong> Move character</li>
-<li><strong>Space:</strong> Jump</li>
-<li><strong>Mouse Click:</strong> Shoot</li>
-<li>&hellip;</li>
+<li><strong>←/→/↑/↓/J/K:</strong> Move the ball</li>
+<li><strong>ESC:</strong> Quit</li>
 </ul>
-<h2 id="github-repository">GitHub Repository</h2>
-<p>Include a link to the GitHub repository for the game.</p>
-<p><a href="https://github.com/your-username/game-repository">Game Repository</a></p>
 <h2 id="screenshots">Screenshots</h2>
-<p>Include screenshots or images showcasing different aspects of the game.</p>
-<p><img src="screenshot1_link_here" alt="Screenshot 1">
-<img src="screenshot2_link_here" alt="Screenshot 2">
-<img src="screenshot3_link_here" alt="Screenshot 3"></p>
-<h2 id="contributing">Contributing</h2>
-<p>Provide information on how others can contribute to the development of the game.</p>
-<h2 id="license">License</h2>
-<p>Specify the license under which the game is released.</p>
+<p><img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/advanced_physics_simulation_2.png" alt="Screenshot 1"></p>
+<p><img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/advanced_physics_simulation_3.png" alt="Screenshot 2"></p>
+<h2 id="usage-license">Usage License</h2>
+<p>The use of this project is subject to the following constraints:</p>
+<ol>
+<li>
+<p>For Academic Use Only: This project is intended solely for academic assignments and research purposes at Shanghai Jiao Tong University. Its use for commercial purposes or any unauthorized use is strictly prohibited.</p>
+</li>
+<li>
+<p>No Redistribution of University Information: The project contains information specific to Shanghai Jiao Tong University, and without permission, it may not be redistributed in any form.</p>
+</li>
+<li>
+<p>All Rights Reserved: The author reserves all rights to this project and its related content.</p>
+</li>
+</ol>
 
                         </div>
                     </section>
@@ -150,7 +174,7 @@
                 
             </ul>
             <ul class="copyright">
-                <li>&copy; Company Name</li>
+                <li>&copy; 2023 Jincheng Song. Website powered by Hugo with the Forty theme by Curtis Timson.</li>
                 
                 <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
                 

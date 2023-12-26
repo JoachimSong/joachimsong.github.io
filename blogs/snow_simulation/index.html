@@ -76,54 +76,65 @@
                                 <h1>Snow Simulation</h1>
                             </header>
                             
-                                <span class="image main"><img src="/img/blogs/pic10.jpg" alt="" /></span>
+                                <span class="image main"><img src="/img/blogs/snow_simulation_1.png" alt="" /></span>
                             
-                            <h1 id="game-title">Game Title</h1>
-<h2 id="overview">Overview</h2>
-<p>Brief introduction or overview of the game.</p>
-<p><img src="image_link_here" alt="Game Screenshot"></p>
+                            <h2 id="overview">Overview</h2>
+<p>Physical-based real-time snow simulation made with Unity.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
-<li><a href="#gameplay">Gameplay</a></li>
+<li><a href="#project-description">Project Description</a></li>
+<li><a href="#video">Demo Video</a></li>
 <li><a href="#features">Features</a></li>
+<li><a href="#implementation-details">Implementation Details</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#controls">Controls</a></li>
-<li><a href="#github-repository">GitHub Repository</a></li>
 <li><a href="#screenshots">Screenshots</a></li>
-<li><a href="#contributing">Contributing</a></li>
-<li><a href="#license">License</a></li>
 </ul>
-<h2 id="gameplay">Gameplay</h2>
-<p>Describe the core gameplay mechanics and objectives of the game.</p>
+<h2 id="project-description">Project Description</h2>
+<p>This is a collaborative project involving three team members. During the simulation, it is necessary to calculate the adhesive force between snow particles, as well as inelastic compression. Additionally, the simulation incorporates thermodynamic principles to model the phase transition between water and ice. Building upon these aspects, the goal is to develop a real-time interactive application. My responsibilities include implementing force calculations between particles, designing the interaction between characters and snow, as well as designing and creating the UI.</p>
+<h2 id="video">Video</h2>
+<p>Click here to enter: <a href="https://www.feicut.com/case-link/#/1739729132885495810"><strong>Video Link</strong></a></p>
 <h2 id="features">Features</h2>
 <ul>
-<li>List key features of the game.</li>
-<li>Bullet point 1</li>
-<li>Bullet point 2</li>
-<li>&hellip;</li>
+<li>Diverse Interactive Methods: Players can control characters, push boxes, and shoot balls to interact with snow, observing the compression of snow.</li>
+<li>Free Scene Creation: Players can use a mechanism similar to Minecraft to distribute snow particles in the desired way.</li>
+<li>Simulate Phase Transition between Water and Ice Using Thermodynamic Principles: The scene includes heat sources and cold sources. Snow will melt into water in warmer areas, and water will freeze into ice in colder regions.</li>
 </ul>
+<h2 id="implementation-details">Implementation Details</h2>
+<p>Based on Paper <a href="https://developer.download.nvidia.cn/assets/cuda/files/particles.pdf">Particle Simulation using CUDA</a>, I designed the algorithm for our project.
+I wrote a compute shader that used the GPU to accelerate the neighbor-searching process between particles and thus accelerate the computation of inter-particle forces.</p>
+<ol>
+<li>Utilize grids for spatial partitioning.</li>
+<li>Apply the Bitonic sorting algorithm to sort grid hash values.</li>
+<li>Conduct neighbor search using indices.</li>
+<li>Calculate the cohesive force, tangential resistance, gravity, and damping force acting on particles.</li>
+<li>Update the velocity and position of particles.</li>
+</ol>
 <h2 id="installation">Installation</h2>
-<p>Provide instructions on how to install and run the game.</p>
+<p>GitHub Repository: <a href="https://github.com/JoachimSong/Snow-Simulation">Snow Simulation</a></p>
 <h2 id="controls">Controls</h2>
-<p>Explain the controls for playing the game.</p>
 <ul>
-<li><strong>W/A/S/D:</strong> Move character</li>
-<li><strong>Space:</strong> Jump</li>
-<li><strong>Mouse Click:</strong> Shoot</li>
-<li>&hellip;</li>
+<li><strong>W/A/S/D:</strong> Move character.</li>
+<li><strong>Space:</strong> Jump.</li>
+<li><strong>Right Mouse Click:</strong> Place the snow cube.</li>
+<li><strong>Left Mouse Click:</strong> Destroy the snow cube.</li>
+<li><strong>Mouse Move:</strong> Rotate view.</li>
+<li><strong>E:</strong> Start simulation. The cubes will turn into snow particles.</li>
+<li><strong>R:</strong> Stop simulation and return to build mode.</li>
+<li><strong>T:</strong> Launch a ball that will collide with the snow.</li>
+<li><strong>C:</strong> Pause. Players can adjust the volume and the temperature in the scene.</li>
 </ul>
-<h2 id="github-repository">GitHub Repository</h2>
-<p>Include a link to the GitHub repository for the game.</p>
-<p><a href="https://github.com/your-username/game-repository">Game Repository</a></p>
 <h2 id="screenshots">Screenshots</h2>
-<p>Include screenshots or images showcasing different aspects of the game.</p>
-<p><img src="screenshot1_link_here" alt="Screenshot 1">
-<img src="screenshot2_link_here" alt="Screenshot 2">
-<img src="screenshot3_link_here" alt="Screenshot 3"></p>
-<h2 id="contributing">Contributing</h2>
-<p>Provide information on how others can contribute to the development of the game.</p>
-<h2 id="license">License</h2>
-<p>Specify the license under which the game is released.</p>
+<p><img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/snow_simulation_4.png" alt="Screenshot 1">
+<img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/snow_simulation_2.png" alt="Screenshot 2">
+<img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/snow_simulation_3.png" alt="Screenshot 3">
+<img src="https://songjc-portfolio-1323252154.cos.ap-shanghai.myqcloud.com/snow_simulation_1.png" alt="Screenshot 4"></p>
+<h2 id="copyright-notice">Copyright Notice</h2>
+<p>All materials used in this project are sourced from the internet or Unity Asset Store and are intended for creative and showcase purposes. If you are the original creator of any material used in this project and have any objections, please feel free to contact me, and I will promptly remove the relevant content.</p>
+<p>Contact Information:</p>
+<ul>
+<li>Email: <a href="mailto:pmatsemit@gmail.com">pmatsemit@gmail.com</a></li>
+</ul>
 
                         </div>
                     </section>
@@ -150,7 +161,7 @@
                 
             </ul>
             <ul class="copyright">
-                <li>&copy; Company Name</li>
+                <li>&copy; 2023 Jincheng Song. Website powered by Hugo with the Forty theme by Curtis Timson.</li>
                 
                 <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
                 

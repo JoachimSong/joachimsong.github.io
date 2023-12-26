@@ -9,46 +9,46 @@
     <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate>
     <atom:link href="http://joachimsong.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Snow Simulation</title>
+      <link>http://joachimsong.github.io/blogs/snow_simulation/</link>
+      <pubDate>Wed, 31 Oct 2018 21:28:43 -0500</pubDate>
+      <guid>http://joachimsong.github.io/blogs/snow_simulation/</guid>
+      <description>Overview Physical-based real-time snow simulation made with Unity.&#xA;Table of Contents Project Description Demo Video Features Implementation Details Installation Controls Screenshots Project Description This is a collaborative project involving three team members. During the simulation, it is necessary to calculate the adhesive force between snow particles, as well as inelastic compression. Additionally, the simulation incorporates thermodynamic principles to model the phase transition between water and ice. Building upon these aspects, the goal is to develop a real-time interactive application.</description>
+    </item>
+    <item>
       <title>Demons and Dragons</title>
       <link>http://joachimsong.github.io/blogs/demons_and_dragons/</link>
       <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
       <guid>http://joachimsong.github.io/blogs/demons_and_dragons/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
+      <description>Overview A 2D Metroidvania game made with Unity, inspired by Hollow Knight. Throughout the adventure, the protagonist defeats various monsters, gains powerful abilities, and ultimately unravels the mystery of his own origin.&#xA;Table of Contents Gameplay Demo Video Story Maps Features Installation Controls Gameplay Players maneuver the protagonist, a newborn dragon, to begin their adventure on this continent. There are six maps in total, the first five being Plains, Ocean, Volcano, Floating Islands, and Cave, where the player defeats monsters and gradually acquires a variety of abilities that will help the player explore the next area.</description>
     </item>
     <item>
       <title>MineJumper</title>
       <link>http://joachimsong.github.io/blogs/minejumper/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
       <guid>http://joachimsong.github.io/blogs/minejumper/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
+      <description>Overview A Cardboard VR platform jumping game made with Unity. The core of the game is to reach the next platform by controlling the precision of the jumps.&#xA;Table of Contents Gameplay Demo Video Features Installation Controls Screenshots Gameplay The most important action in this game is jumping! The player controls the distance and height of the jump by controlling the length of time the button is held down. There are three modes to choose from, allowing players to take on levels of varying difficulty, hone their skills, or participate in endless score challenges.</description>
     </item>
     <item>
       <title>Roll A Ball</title>
       <link>http://joachimsong.github.io/blogs/roll_a_ball/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
       <guid>http://joachimsong.github.io/blogs/roll_a_ball/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
+      <description>Overview A simple balanced maze game made with Unity.&#xA;Table of Contents Gameplay Instruction Installation Controls Gameplay The player must tilt the board to guide the ball through the maze using gravity. During the process, the player needs to control the ball to pick up two keys and avoid the enemies. The exit will only open once both keys are collected.&#xA;Instruction Light blue cube: Checkpoint Blue cube: Key Red cube: Enemy Green cube: Exit Installation GitHub Repository: Roll A Ball</description>
     </item>
     <item>
       <title>Advanced Physics Simulation</title>
       <link>http://joachimsong.github.io/blogs/advanced_physics_simulation/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       <guid>http://joachimsong.github.io/blogs/advanced_physics_simulation/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
-    </item>
-    <item>
-      <title>Snow Simulation</title>
-      <link>http://joachimsong.github.io/blogs/snow_simulation/</link>
-      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
-      <guid>http://joachimsong.github.io/blogs/snow_simulation/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
+      <description>Overview Simple Hair and Cloth Simulation made with Unity.&#xA;Table of Contents Project Description Features Implementation Details Installation Controls Screenshots Usage License Project Description Project Objectives:&#xA;Understand how physical phenomena are modeled in games Understand several methods of solving ordinary differential equations Learn the basic spring model implementation Features Hair Simulation Simple interaction: the player can adjust hair weight, damping factor, length and other parameters through UI Cloth Simulation Simple interaction: the player can use the ball to collide with the cloth Implementation Details Hair Simulation Implementing dynamic effects using the Verlet integration method.</description>
     </item>
     <item>
       <title>Speed Down</title>
       <link>http://joachimsong.github.io/blogs/speed_down/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       <guid>http://joachimsong.github.io/blogs/speed_down/</guid>
-      <description>Game Title Overview Brief introduction or overview of the game.&#xA;Table of Contents Gameplay Features Installation Controls GitHub Repository Screenshots Contributing License Gameplay Describe the core gameplay mechanics and objectives of the game.&#xA;Features List key features of the game. Bullet point 1 Bullet point 2 &amp;hellip; Installation Provide instructions on how to install and run the game.&#xA;Controls Explain the controls for playing the game.&#xA;W/A/S/D: Move character Space: Jump Mouse Click: Shoot &amp;hellip; GitHub Repository Include a link to the GitHub repository for the game.</description>
+      <description>Overview A 2D platform game similar to Doodle Jump. Move your character to jump off the platforms, striving to achieve higher scores.&#xA;Table of Contents Gameplay Features Installation Controls Screenshots Gameplay You can only maneuver your character to move left and right and cannot actively jump. Your goal is to find the right moment to move to the platform below and avoid touching the spikes on the ceiling. In the process, you need to avoid various traps and can pick up props to gain buffs.</description>
     </item>
   </channel>
 </rss>
